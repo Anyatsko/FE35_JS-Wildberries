@@ -1,0 +1,25 @@
+{
+  "name": "js-wildberries",
+  "version": "1.0.0",
+  "description": "",
+  "source" : "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anyatsko/FE35_JS-Wildberries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anyatsko/FE35_JS-Wildberries/issues"
+  },
+  "homepage": "https://github.com/Anyatsko/FE35_JS-Wildberries#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+}
