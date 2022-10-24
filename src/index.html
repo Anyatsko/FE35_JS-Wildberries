@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Wildberries</title>
+</head>
+<body>
+    <header id="header"> 
+         <img src="./img/logo.png" alt="logo">
+        <input type="text" placeholder="Поиск">
+         <button id="cart_content">Корзина</button>
+     </header> 
+
+    <main>
+
+       <section class="main__slider">
+        <div class="container">
+            <div class="slider">
+                <input type="radio" id="btn-1" name="toggle" checked>
+                <input type="radio" id="btn-2" name="toggle">
+                <input type="radio" id="btn-3" name="toggle">
+                <div class="slider-controls">
+                    <label for="btn-1"></label>
+                    <label for="btn-2"></label>
+                    <label for="btn-3"></label>
+                </div>
+                <div class="slider-inner">
+                    <div class="slider-slides">
+                        <img src="./img/slider/slider - 1.jpg" alt="img">
+                        <img src="./img/slider/slider-6.jpg" alt="img">
+                        <img src="img/slider/slider-3.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+        <div id="products">
+            <div class="container">       
+            </div>
+        </div>
+        <div id="shopping"></div>
+    </main>
+    
+<script src="./constants/catalog.js"></script>
+<script src="./utils/localStorage.js"></script>
+<script src="./constants/root.js"></script>
+<script src="./componets/header/header.js"></script>
+<script defer src="./componets/shopping/shopping.js"></script>
+<script src="./componets/products/products.js"></script>
+
+
+
+
+
+</body>
+</html>
