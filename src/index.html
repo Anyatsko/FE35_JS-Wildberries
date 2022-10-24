@@ -8,13 +8,15 @@
     <title>Wildberries</title>
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="logo">
+    <header id="header"> 
+         <img src="./img/logo.png" alt="logo">
         <input type="text" placeholder="Поиск">
-        <div id="cart_content">Корзина</div>
-    </header>
+         <button id="cart_content">Корзина</button>
+     </header> 
 
     <main>
+
+       <section class="main__slider">
         <div class="container">
             <div class="slider">
                 <input type="radio" id="btn-1" name="toggle" checked>
@@ -27,15 +29,32 @@
                 </div>
                 <div class="slider-inner">
                     <div class="slider-slides">
-                        <img src="./img/slider/slider - 1.jpg" alt="Кекс смотрит на еду">
-                        <img src="./img/slider/slider-6.jpg" alt="Кекс смотрит на тебя">
-                        <img src="./img/slider/slider-7.jpg" alt="Кекс не хочет никуда смотреть">
+                        <img src="./img/slider/slider - 1.jpg" alt="img">
+                        <img src="./img/slider/slider-6.jpg" alt="img">
+                        <img src="img/slider/slider-3.png" alt="img">
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+       </section>
 
-   
+        <div id="products">
+            <div class="container">       
+            </div>
+        </div>
+        <div id="shopping"></div>
+    </main>
+    
+<script src="./constants/catalog.js"></script>
+<script src="./utils/localStorage.js"></script>
+<script src="./constants/root.js"></script>
+<script src="./componets/header/header.js"></script>
+<script defer src="./componets/shopping/shopping.js"></script>
+<script src="./componets/products/products.js"></script>
+
+
+
+
+
 </body>
 </html>
